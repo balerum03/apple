@@ -1,11 +1,12 @@
-header{
+header {
   align-items: center;
   justify-content: center;
   display:flex;
-  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 1440px 1315px;
+  margin: 0;
 }
 .navbar a {
   padding: 10px 10px;
@@ -15,8 +16,30 @@ header{
   background: -moz-linear-gradient(to top, black, white);
   background: linear-gradient(to top, black, white);
 }
+#search-bar {
+  background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  border-radius: 10px;
+}
+
+.navbar span {
+  background: -webkit-linear-gradient(to top, black, white);
+  background: -moz-linear-gradient(to top, black, white);
+  background: linear-gradient(to top, black, white);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 10px;
+  margin-left: 0;
+}
 
 .promo-images {
   display: flex;
   justify-content: center;
+}
+
+#Button1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
