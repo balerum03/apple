@@ -1,6 +1,5 @@
 header {
   align-items: center;
-  justify-content: center;
   display:flex;
   flex-direction: column;
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
@@ -26,6 +25,7 @@ header {
       rgba(99, 99, 99, 1) 77%,
       rgba(111, 111, 111, 1) 100%
   );
+  text-decoration: none;
 }
 #search-bar {
   background-image: url("./images/glass.PNG");
@@ -36,8 +36,7 @@ header {
   border-radius: 10px;
 }
 .navbar{
-  justify-content: center;
-  align-content: center;
+  margin-top: 150px;
 }
 .navbar span {
   background: -webkit-linear-gradient(to top, black, white);
@@ -51,6 +50,7 @@ header {
 
 .promo-images {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -59,18 +59,38 @@ header {
   border-bottom-left-radius: 5px;
 }
 .text-in-image {
+  display: flex;
+  flex-direction: column;
+}
+.text-in-image h1 {
   border:1px solid red;
   color: white;
-  font-weight: 10;
+  font-size: 70px;
+  font-weight: lighter;
   text-align: center;
-  font-size: 50px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;;
-  margin-top: 50px;
-  max-width: 1440px
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  margin-top: 20px;
+  max-width: 1440px;
 }
 
-.text-in-image h1{
-  font-size: 24px;
+.text-in-image span {
+  border:1px solid red;
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  max-width: 1440px;
+}
+
+.text-in-image p {
+  border:1px solid red;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  max-width: 1440px;
 }
 
 #play-image {
