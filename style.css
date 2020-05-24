@@ -28,7 +28,11 @@ header {
   text-decoration: none;
 }
 
-.navbar input:: placeholder {
+input[type=search] {
+    color: white;
+}
+
+::placeholder {
   color: white;
 }
 
@@ -118,7 +122,7 @@ header {
 }
 .page-footer {
   display: flex;
-  flex-direction: row;font-family;
+  flex-direction: row;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   align-items: center;
   justify-content: center;
