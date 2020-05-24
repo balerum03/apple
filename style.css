@@ -55,7 +55,8 @@ input[type=search] {
 }
 
 .navbar{
-  margin-top: 10vh;
+  margin: 10vh 0 0 0;
+  padding: 0;
 }
 
 .navbar span {
@@ -77,6 +78,11 @@ input[type=search] {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.promo-images img {
+  width: 360px;
+  height: 200px;
 }
 
 #Button1 {
