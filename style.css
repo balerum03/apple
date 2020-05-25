@@ -12,6 +12,9 @@ header {
 
 .navbar a {
   padding: 10px;
+  place-self: center;
+  height: 20px;
+  width: 5vw;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   color: white;
   background:
@@ -26,6 +29,14 @@ header {
   text-decoration: none;
   border: .50px solid #898989;
 }
+.navbar i {
+  margin: 15px;
+  place-self:center;
+}
+
+.navbar img {
+  margin:0 0 0 30px;
+}
 
 input[type=search] {
     color: white;
@@ -36,6 +47,7 @@ input[type=search] {
 }
 
 #search-bar {
+  place-self: center;
   background:
     linear-gradient(
       rgba(138, 138, 138, 1) 0%,
@@ -57,9 +69,12 @@ input[type=search] {
   display: grid;
   grid-template-columns: repeat(9,auto);
   margin-top: 10vh;
+  align-self: center;
 }
 
 .navbar span {
+  place-self: center;
+  height: 20px;
   background:
     linear-gradient(
       rgba(138, 138, 138, 1) 0%,
