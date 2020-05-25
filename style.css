@@ -24,7 +24,7 @@ header {
       rgba(111, 111, 111, 1) 100%
   );
   text-decoration: none;
-  border: .50px solid black;
+  border: .50px solid #898989;
 }
 
 input[type=search] {
@@ -72,7 +72,7 @@ input[type=search] {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 10px;
-  border: .50px solid black;
+  border: .50px solid #898989;
 }
 
 .promo-images {
