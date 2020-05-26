@@ -121,7 +121,7 @@ input[type=search] {
   max-width: 1440px;
 }
 
-.text-in-image span {
+.text-in-image div {
   font-size: 40px;
   font-weight: lighter;
   text-align: center;
@@ -183,8 +183,4 @@ input[type=search] {
 #privacy-link,
 .extra-info {
   border-right: 1px solid #6E6E6E;
-}
-
-#hola {
-  border-left: 1px solid #6E6E6E;
 }
